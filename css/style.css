@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mobile-menu {
+    max-width: 320px;
+    height: 1024px;
+    
+    background-color: #ffffff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.mobile-menu-close {
+    margin-right: 17px;
+}
+
+.mobile-menu-logo img {
+    width: 97px !important;
+    height: 51px !important;
+}
+
+.mobile-menu-search {
+    margin-left: auto;
+}
+
+
+/* Стили для списка */
+.mobile-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 222px;
+    height: auto;
+}
+
+.mobile-menu-list li {
+    padding-bottom: 32px;
+}
+
+.mobile-menu-list li a {
+    text-decoration: none;
+    color: #1B1C21;
+    display: block;
+}
+
+.mobile-menu-list li:first-child a {
+    color: #7E7E82;
+    position: relative;
+}
+
+.mobile-menu-list li:first-child a::before {
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 32px;
+    background-color: #41F6D7;
+    border-radius: 3px;
+}
+
+/* Стили для footer */
+.mobile-menu-footer {
+    margin-top: auto;
+    padding-top: 0px;
+
+}
+
+.mobile-menu-contacts {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.mobile-menu-btn img {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.mobile-menu-contacts a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-bottom: 12px;
+    padding: 2px 0;
+}
+
+.mobile-menu-footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.mobile-menu-contacts p:last-child {
+    font-weight: bold;
+}
+
+.mobile-menu-languages {
+    display: flex;
+    gap: 10px;
+}
+
+.mobile-menu-languages span:first-child {
+    color: gray;
+}
+
+.mobile-menu-languages span {
+    color: black;
+    cursor: pointer;
+}
